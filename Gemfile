@@ -65,3 +65,12 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+# Authentication
+gem 'devise'
+
+# CORS for React frontend
+gem 'rack-cors'
+
+# JSON serialization for API responses
+gem 'jsonapi-serializer'

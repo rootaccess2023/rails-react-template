@@ -74,3 +74,10 @@ gem 'rack-cors'
 
 # JSON serialization for API responses
 gem 'jsonapi-serializer'
+
+# ActiveAdmin
+gem 'activeadmin'
+
+# Sass
+gem 'sassc', '~> 2.4'
+gem 'sassc-rails', '~> 2.1', '>= 2.1.1' 

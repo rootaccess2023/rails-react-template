@@ -134,14 +134,14 @@ ActiveAdmin.setup do |config|
   # roots for each namespace.
   #
   # Default:
-  # config.root_to = 'dashboard#index'
+  config.root_to = 'dashboard#index'
 
   # == Admin Comments
   #
   # This allows your users to comment on any resource registered with Active Admin.
   #
   # You can completely disable comments:
-  # config.comments = false
+  config.comments = false
   #
   # You can change the name under which comments are registered:
   # config.comments_registration_name = 'AdminComment'
@@ -196,13 +196,14 @@ ActiveAdmin.setup do |config|
   # Add additional meta tags to the head element of active admin pages.
   #
   # Add tags to all pages logged in users see:
-  #   config.meta_tags = { author: 'My Company' }
+  meta_tags_options = { viewport: 'width=device-width, initial-scale=1' }
+  config.meta_tags = meta_tags_options
 
   # By default, sign up/sign in/recover password pages are excluded
   # from showing up in search engine results by adding a robots meta
   # tag. You can reset the hash of meta tags included in logged out
   # pages:
-  #   config.meta_tags_for_logged_out_pages = {}
+  config.meta_tags_for_logged_out_pages = meta_tags_options
 
   # == Removing Breadcrumbs
   #

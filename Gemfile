@@ -77,6 +77,7 @@ gem 'jsonapi-serializer'
 
 # ActiveAdmin
 gem 'activeadmin'
+gem 'arctic_admin'
 
 # Sass
 gem 'sassc', '~> 2.4'
